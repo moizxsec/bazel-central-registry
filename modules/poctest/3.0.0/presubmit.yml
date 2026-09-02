@@ -1,0 +1,9 @@
+bcr_test_module:
+  matrix:
+    platform: ["debian10"]
+  tasks:
+    run_tests:
+      name: "Run tests"
+      platform: ${{ platform }}
+      build_targets:
+        - "//..."
