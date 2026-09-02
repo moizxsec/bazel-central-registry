@@ -1,0 +1,15 @@
+{
+  "homepage": "https://example.com",
+  "maintainers": [
+    {
+      "name": "Muizism",
+      "email": "muezzism@gmail.com",
+      "github": "Muizism",
+      "github_user_id": 116908590
+    }
+  ],
+  "versions": [
+    "1.0.0"
+  ],
+  "yanked_versions": {}
+}
