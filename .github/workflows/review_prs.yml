@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
-        if: github.repository_owner == 'bazelbuild'
+        if: github.repository_owner == 'moizxsec'
         uses: step-security/harden-runner@05e31511f85b41b11d1cf0ef85d0992719546e2c # v2.21.0
         with:
           egress-policy: audit
 
       - name: Run BCR PR Reviewer
-        if: github.repository_owner == 'bazelbuild'
+        if: github.repository_owner == 'moizxsec'
         uses: moizxsec/continuous-integration/actions/bcr-pr-reviewer@957b0ac44549a70ccb951361b804d07d955aeb79 # master
         with:
           # This token needs to be updated annually on Feb 05.
